@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(212, 212, 33);
+}
+
+.main-body{
+  background-color: rgb(44, 95, 91);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  display: flex;
+  background-color: darkslategrey;
+  width: 100%;
+  text-align: center;
+} 
+
+.header-logo{
+  height: 10vmin;
+}
+
+.header-text{
+  margin-left: 15%;
+}
+
+.main-info{
+  width:100%;
+  display: block;
+  text-align: center;
+}
+
+.list-item{
+  margin-top: 20px;
+  list-style-type: none;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  width: 97%;
+  background-color: rgba(53, 133, 115, 0.521);
+}
+
+.list-item a{
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color:rgb(49, 187, 197);
+}
+
+.date-picker{
+  text-align: center;
+}
+
+.date-picker-text{
+  font-size: large;
+  font-weight: bold;
+}
