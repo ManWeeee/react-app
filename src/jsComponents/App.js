@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "./img/gerb.png";
+import logo from "../img/gerb.png";
 import NewsList from './NewsList';
 import DatePicker from './DatePicker';
 
